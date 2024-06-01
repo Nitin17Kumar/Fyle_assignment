@@ -1,0 +1,204 @@
+
+.award-title {
+    color: #ff0000;
+    font-weight: bold;
+}
+.award_pic{
+    margin-top: 5px;
+    margin-left: 25px;
+    height: 500px;
+    width: 387px;
+}
+
+.service-header {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.service-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.service-description {
+    margin-bottom: 1.5rem;
+}
+.card-img-top{
+    height: 400px;
+    width: 300px;
+}
+.service-card {
+    position: relative;
+    overflow: hidden;
+}
+.service-card .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.9);
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-card:hover .card-body {
+    transform: translateY(0);
+}
+.carousel-indicators .circle-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border-radius: 50%;
+    background-color: #999;
+    cursor: pointer;
+}
+.carousel-indicators .active {
+    background-color: red;
+}
+.service-card {
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.sm-img{
+    height: 70px;
+    width: 70px;
+}
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-indicators li {
+    background-color: #ff0000;
+}
+
+.project-header {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.project-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.project-description {
+    margin-bottom: 1.5rem;
+}
+
+.highlight-card {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.highlight-card .card-title {
+    font-weight: bold;
+}
+
+.growth-header {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.growth-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.growth-item:hover {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.growth-item h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.growth-item p {
+    margin-bottom: 0;
+    color: #666666;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #ff0000;
+    margin-bottom: 0.5rem;
+}
+.on-hover:hover{
+    background-color: red;
+}
+.footer{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.red{
+    background-color: red;
+    padding-top: 50px;
+    padding-left:25px ;
+    padding-bottom: 25px;
+    padding-right:25px ;
+}
+
+
+#contactForm {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin-top: 10px ;
+    margin-bottom: 30rem;
+    margin-left: 33rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="email"],
+input[type="text"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f84c5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e03e49;
+}
